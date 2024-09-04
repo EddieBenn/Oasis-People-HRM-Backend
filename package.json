@@ -2,11 +2,11 @@
   "name": "oasis-people-hrm-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -w",
-    "dev": "nodemon build/app.js",
+    "build": "tsc",
+    "prod": "node build/app.js",
     "start": "npx tsc & ts-node-dev ./src/app.ts"
   },
   "keywords": [],
